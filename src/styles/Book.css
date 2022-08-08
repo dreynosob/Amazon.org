@@ -1,0 +1,79 @@
+.book {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    width: 270px;
+
+  
+  }
+  .book h1 {
+    margin-top: 0.5rem;
+    font-size: 18px;
+  }
+  .book h4 {
+    color: #617d98;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+  }
+  .book h5{
+    font-size: 14px;
+    color: #B12704;
+    font-family: "Amazon Ember",Arial,sans-serif;
+  }
+  .book p {
+    margin-top: 0.5rem;
+  }
+
+  .book img{
+    width: 200px;
+    
+  }
+  .botones {
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+  }
+
+  .book-carrito-btn{
+    margin-bottom: 8px;
+    color: #313133;
+    background: #f4fc1f;
+    background: linear-gradient(90deg, rgb(251, 244, 29) 0%, rgba(251, 244, 29) 100%);
+    border: none;
+    border-radius: 1000px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 3px;
+    width: 150px;
+  
+  }
+
+  .book-carrito-btn:hover{
+    transform: translateY(-6px);
+    
+  }
+
+  .book-comprar-btn{
+    color: #313133;
+    background: #f4fc1f;
+   background: linear-gradient(90deg, rgb(251, 244, 29) 0%, rgba(251, 244, 29) 100%);
+    border: none;
+    border-radius: 1000px;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    padding: 3px;
+    width: 150px;
+  
+  }
+
+  .book-comprar-btn:hover{
+    transform: translateY(6px);
+    background: linear-gradient(90deg, rgb(245, 174, 20) 0%, rgba(245, 174, 20) 100%);
+    
+  }
